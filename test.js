@@ -20,5 +20,5 @@ readFile('file.txt','utf8')
   console.log(data) ;
   return asyncFunc1();
 })
-.then( data => { console.log(data)})
-.catch( error => {console.log(error)});
+.then( data => console.log(data))
+.catch( error => console.log(error));
